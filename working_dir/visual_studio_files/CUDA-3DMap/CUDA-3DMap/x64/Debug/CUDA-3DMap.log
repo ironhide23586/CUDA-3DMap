@@ -1,12 +1,2 @@
-﻿  shmatrix_demo.cpp
-     Creating library D:\Users\monst\Desktop\CUDA-3DMap\working_dir\visual_studio_files\CUDA-3DMap\x64\Debug\CUDA-3DMap.lib and object D:\Users\monst\Desktop\CUDA-3DMap\working_dir\visual_studio_files\CUDA-3DMap\x64\Debug\CUDA-3DMap.exp
-shmatrix_demo.obj : warning LNK4217: locally defined symbol ??0SHMatrix@@QEAA@AEBQEAUcublasContext@@AEAV?$vector@HV?$allocator@H@std@@@std@@W4mem_location@@_NM@Z (public: __cdecl SHMatrix::SHMatrix(struct cublasContext * const &,class std::vector<int,class std::allocator<int> > &,enum mem_location,bool,float)) imported in function main
-shmatrix_demo.obj : warning LNK4217: locally defined symbol ?Print@SHMatrix@@QEAAX_N@Z (public: void __cdecl SHMatrix::Print(bool)) imported in function main
-shmatrix_demo.obj : warning LNK4217: locally defined symbol ?Move2CPU@SHMatrix@@QEAAXXZ (public: void __cdecl SHMatrix::Move2CPU(void)) imported in function main
-shmatrix_demo.obj : warning LNK4217: locally defined symbol ?GaussianInit@SHMatrix@@QEAAXMM@Z (public: void __cdecl SHMatrix::GaussianInit(float,float)) imported in function main
-shmatrix_demo.obj : warning LNK4217: locally defined symbol ?UniformInit@SHMatrix@@QEAAXMM@Z (public: void __cdecl SHMatrix::UniformInit(float,float)) imported in function main
-shmatrix_demo.obj : warning LNK4217: locally defined symbol ?T@SHMatrix@@QEAAAEAV1@XZ (public: class SHMatrix & __cdecl SHMatrix::T(void)) imported in function main
-shmatrix_demo.obj : warning LNK4217: locally defined symbol ?Dot@SHMatrix@@SAXPEAUcublasContext@@AEAV1@11@Z (public: static void __cdecl SHMatrix::Dot(struct cublasContext *,class SHMatrix &,class SHMatrix &,class SHMatrix &)) imported in function main
-shmatrix_demo.obj : warning LNK4217: locally defined symbol ??YSHMatrix@@QEAAXAEAV0@@Z (public: void __cdecl SHMatrix::operator+=(class SHMatrix &)) imported in function main
-shmatrix_demo.obj : warning LNK4217: locally defined symbol ??1SHMatrix@@QEAA@XZ (public: __cdecl SHMatrix::~SHMatrix(void)) imported in function main
+﻿  image_op_demo.cpp
   CUDA-3DMap.vcxproj -> D:\Users\monst\Desktop\CUDA-3DMap\working_dir\visual_studio_files\CUDA-3DMap\x64\Debug\CUDA-3DMap.exe
