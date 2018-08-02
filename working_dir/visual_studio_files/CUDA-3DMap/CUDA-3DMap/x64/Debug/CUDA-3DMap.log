@@ -1,2 +1,8 @@
 ﻿  image_op_demo.cpp
+     Creating library D:\Users\monst\Desktop\CUDA-3DMap\working_dir\visual_studio_files\CUDA-3DMap\x64\Debug\CUDA-3DMap.lib and object D:\Users\monst\Desktop\CUDA-3DMap\working_dir\visual_studio_files\CUDA-3DMap\x64\Debug\CUDA-3DMap.exp
+image_op_demo.obj : warning LNK4217: locally defined symbol ??0SHMatrix@@QEAA@AEBQEAUcublasContext@@PEAMAEAV?$vector@HV?$allocator@H@std@@@std@@W4mem_location@@@Z (public: __cdecl SHMatrix::SHMatrix(struct cublasContext * const &,float *,class std::vector<int,class std::allocator<int> > &,enum mem_location)) imported in function main
+image_op_demo.obj : warning LNK4217: locally defined symbol ?Move2GPU@SHMatrix@@QEAAXXZ (public: void __cdecl SHMatrix::Move2GPU(void)) imported in function main
+image_op_demo.obj : warning LNK4217: locally defined symbol ?Move2CPU@SHMatrix@@QEAAXXZ (public: void __cdecl SHMatrix::Move2CPU(void)) imported in function main
+image_op_demo.obj : warning LNK4217: locally defined symbol ??XSHMatrix@@QEAAXM@Z (public: void __cdecl SHMatrix::operator*=(float)) imported in function main
+image_op_demo.obj : warning LNK4217: locally defined symbol ??1SHMatrix@@QEAA@XZ (public: __cdecl SHMatrix::~SHMatrix(void)) imported in function main
   CUDA-3DMap.vcxproj -> D:\Users\monst\Desktop\CUDA-3DMap\working_dir\visual_studio_files\CUDA-3DMap\x64\Debug\CUDA-3DMap.exe
