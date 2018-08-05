@@ -22,6 +22,8 @@ int main() {
 	CublasSafeCall(cublasCreate_v2(&cublasHandle));
 
 	SHMage a(cublasHandle, im, GPU);
-	*a.im += 50;
-	a.show();
+	//*a.im += 50;
+	//a.show();
+	a.GenerateGaussianKernel(2);
+	a.filter_kernel->Print();
 }
