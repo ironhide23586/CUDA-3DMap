@@ -158,12 +158,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="image_op_demo.cpp" />
+    <ClCompile Include="SHMage.cpp" />
     <ClCompile Include="shmatrix_demo.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="SHMatrix\SHMatrix.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="SHMage.h" />
     <ClInclude Include="SHMatrix\err_check.h" />
     <ClInclude Include="SHMatrix\SHMatrix.h" />
   </ItemGroup>
